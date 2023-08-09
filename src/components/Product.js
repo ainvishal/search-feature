@@ -1,10 +1,10 @@
 import React from 'react';
 import { useState } from "react";
-
+import Carcard from "./Carcard.js"
 const Productlist = () => {
     return(
         <>
-            
+            <Carcard />
         </>
     );
 }

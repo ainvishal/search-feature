@@ -1,0 +1,14 @@
+/* card layout */
+.card {
+    border:1px solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 400px;
+    font-size: small;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 245px;
+    height: 200px;
+}
