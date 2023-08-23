@@ -18,6 +18,17 @@
 }
 
 
+/* flex container */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 80px;
+}
+.car-card {
+  margin: 15px 30px;
+}
+
 
 /* drop-down */
 span {

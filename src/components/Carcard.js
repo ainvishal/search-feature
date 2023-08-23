@@ -1,14 +1,14 @@
-import cars from './car.js';
+
 import './carcard.css';
-export default function Carcard() {
+export default function Carcard( {car} ) {
     return(
         <>
             <div className='card'>
-                <img src={cars[0].url} alt={cars[0].name} />
+                <img src={car.url} alt={car.name} />
                 <div className="card_desc">
-                    <p>{cars[0].name}{" ||  Price: "}{cars[0].price}</p>
+                    <p>{car.name}{" ||  Price: "}{car.price}</p>
                     <br />
-                    <p>{cars[0].description}</p>
+                    <p>{car.description}</p>
                 </div>
             </div>
         </>
