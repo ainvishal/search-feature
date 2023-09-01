@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import cars from './car.js';
 import Carcard from "./Carcard.js"
+import './product.css';
 const Productlist = ( {search} ) => {
 
     let compareWordsByLetters = (search_word, item_word) => {
@@ -40,7 +41,7 @@ const Productlist = ( {search} ) => {
 const Search = ({value, Change}) => {
     return(
         <>
-            <form>
+            <form className='search'>
                 <input type="text" placeholder="Search" value={value} onChange={Change}/>
                 <button type="submt">Search</button>
             </form>

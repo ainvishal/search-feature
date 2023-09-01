@@ -1,0 +1,12 @@
+
+
+form.search {
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+}
+
+form.search input {
+    border-radius: 5px;
+    margin: 0 15px;
+}
